@@ -1,6 +1,6 @@
-# Awesome Nano Banana Pro Prompts
+# Awesome Nano Banana Pro Prompts 🍌
 
-A curated collection of Nano Banana Pro prompts with example outputs. Each prompt is grouped by theme and includes the full text for direct use.
+A curated collection of Nano Banana Pro prompts with example outputs. Each prompt is grouped by theme and includes the full text for direct use. All created by [@aimikoda](https://x.com/aimikoda)
 
 ## Table of Contents
 
@@ -30,17 +30,20 @@ Turn Your Name’s Meaning Into an Iconic Portrait
 Make a symbolic portrait reinterpretation for artistic editorial use, using a medium-close framing at eye level with a calm, centered composition, set within an abstract environment derived from the etymological and cultural meaning of [NAME], with [SUBJECT] placed as the sole figure in the midground, preserving the facial structure, facial proportions, expression, and overall likeness of [SUBJECT] exactly as in the reference image, allowing no alteration, stylization, or reinterpretation of the face under any circumstance, avoiding any reuse, reference, or derivation of clothing, accessories, or styling from the reference image, and instead designing a new outfit that supports the mood and symbolism of [NAME] without echoing the original wardrobe, translating the meaning of [NAME] into visual elements such as light behavior, color palette, atmosphere, natural forces, or metaphoric forms surrounding [SUBJECT], reflecting the name’s meaning through mood and symbolism rather than literal text, letters, or icons, using lighting direction, intensity, and color temperature to reinforce the emotional essence of [NAME], integrating symbolic elements so they feel physically and spatially connected to [SUBJECT] rather than decorative, keeping the background restrained and uncluttered with no readable text, and ensuring strong visual impact, coherence, and stylistic integrity throughout the composition.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
 
 <img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-01.jpg" />
 <img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-02.jpg" />
 <img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-03.jpg" />
-
+---
 ### 1.2. Fragmented Identity Prints
 
-**Prompt:**
 This prompt enforces a strict physical illusion: multiple instant-photo prints, one subject.
 You can use it with your own photos. Change the variables as you want and generate.
+
+**Prompt:**
 
 ```text
 [SUBJECT] = the person shown in the uploaded reference image (identity anchor only)
@@ -84,14 +87,14 @@ RULES:
 AVOID: [SUBJECT] pixels outside image areas except distal hand or forearm, wrist outside image areas, face outside image areas, hair outside image areas, torso or legs or clothing outside image areas, elbows or upper arms outside image areas, extra hands, extra arms, duplicated limbs, independent-photo framing, editorial detail shots, watermarks, signatures, text
 ```
 
-**Example Outputs:**
+## ####Example Outputs:
 
 <img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-01.jpg" />
 <img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-02.jpg" />
 <img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-03.jpg" />
 <img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-04.jpg" />
 <img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-05.jpg" />
-
+---
 ### 1.3. Zipped Lips Portrait
 
 **Prompt:**
@@ -101,8 +104,9 @@ prompt:
 Make a photorealistic studio head portrait of the person from the provided reference photo, used strictly as identity anchor, captured at eye level with natural facial perspective, framed as a clean studio photograph with only the head and upper shoulders visible, set against a professional studio background with soft neutral tones, showing the subject centered and facing forward with a calm direct gaze, with a single hand gently closing a metal zipper over the lips, ensuring the lips and zipper merge naturally and convincingly without distortion, rendered with realistic skin texture and fine detail, lit with soft controlled studio lighting to create an elegant, cinematic, and emotionally restrained image.
 ```
 
-**Example Output:**
-<img width="400" alt="Zipped Lips Portrait" src="images/zipped-lips-portrait-01.jpg" />
+## ###Example Output:
+
+## <img width="400" alt="Zipped Lips Portrait" src="images/zipped-lips-portrait-01.jpg" />
 
 ### 1.4. Primal Archetype Portrait
 
@@ -131,12 +135,13 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid facial distortion, identity drift, modern fashion elements, sci-fi aesthetics, text overlays, watermarks.
 ```
 
-**Example Outputs:**
+## ####Example Outputs:
+
 <img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-01.jpg" />
 <img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-02.jpg" />
 <img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-03.jpg" />
 <img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-04.jpg" />
-
+---
 ### 1.5. Anime Eyes Through Phone
 
 **Prompt:**
@@ -204,12 +209,13 @@ OUTPUT
 Produce exactly one final image following these instructions.
 ```
 
-**Example Outputs:**
+## ####Example Outputs:
+
 <img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-01.jpg" />
 <img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-02.jpg" />
 <img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-03.jpg" />
 <img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-04.jpg" />
-
+---
 ### 1.6. Mixed Media Portrait Trio
 
 Change the variables and you are ready to go!
@@ -267,10 +273,13 @@ Ensure a strong visual contrast where the women appear clearly photographic and 
 Avoid any artist signature, watermark, embedded text, or illustrative stylization on the human subjects.
 ```
 
-**Example Outputs:**
+## ####Example Outputs:
+
+---
+
 <img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-01.jpg" />
 <img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-02.jpg" />
-
+---
 ### 1.7. Orange Cat Eye Cover
 
 **Prompt:**
@@ -297,8 +306,13 @@ Preserve photographic realism, believable scale between cat and human, clear eye
 Do not add a second cat, do not angle the cat’s head away from the camera, do not crop or cut off any part of the cat or paws, do not cover only one eye, do not alter the subject’s identity, do not stylize the human figure, do not apply orange color grading to skin, do not add text, logos, UI elements, surreal distortion, cartoon style, or fantasy aesthetics.
 ```
 
-**Example Output:**
+####Example Output:
+
+---
+
 <img width="400" alt="Orange Cat Eye Cover" src="images/orange-cat-eye-cover-01.jpg" />
+
+---
 
 ## 2. Style & Transformation
 
@@ -380,12 +394,15 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid text, labels, watermarks, excessive fantasy elements.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-01.jpg" />
 <img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-02.jpg" />
 <img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-03.jpg" />
 <img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-04.jpg" />
-
+---
 ### 2.2. Frozen Moment in Ice
 
 People, animals, iconic characters or products.
@@ -418,10 +435,14 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid text overlays, watermarks, unbranded cans, cartoon style, low-detail rendering.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-01.jpg" />
 <img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-02.jpg" />
 <img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-03.jpg" />
+---
 
 ### 2.3. Cartoon Accessory Add-On
 
@@ -431,11 +452,14 @@ Avoid text overlays, watermarks, unbranded cans, cartoon style, low-detail rende
 Add cartoon-style objects and accessories to the uploaded image
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-01.jpg" />
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-02.jpg" />
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-03.jpg" />
-
+---
 ## 3. Fashion & Product Imaging
 
 ### 3.1. Life-Size Collectible Box
@@ -465,12 +489,15 @@ Maintain clean edges, clear separation between subject, box, and background.
 Ensure the final image feels iconic, immersive, and immediately recognizable as a themed display box concept.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-01.jpg" />
 <img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-02.jpg" />
 <img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-03.jpg" />
 <img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-04.jpg" />
-
+---
 ### 3.2. Flat-Lay Outfit Builder
 
 Generates anatomy-free flat-lay outfit visuals with precise control over style, layout, surface, and accessories.
@@ -535,11 +562,15 @@ Avoid mannequins, models, body silhouettes, stuffing, air filled shapes, extra i
 Ensure clarity, accurate fabric texture, and a calm contemporary aesthetic.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-01.jpg" />
 <img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-02.jpg" />
 <img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-03.jpg" />
 <img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-04.jpg" />
+---
 
 ### 3.3. ClearShell Product Transformation
 
@@ -555,12 +586,15 @@ Avoid color tinting, distortion, or opaque materials.
 Ensure clarity and professional finish.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-01.jpg" />
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-02.jpg" />
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-03.jpg" />
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-04.jpg" />
-
+---
 ## 4. Advertising & Branding Concepts
 
 ### 4.1. Impact Splash Ad
@@ -651,13 +685,16 @@ STYLE & QUALITY RULES:
 The final image should feel like a hero visual from a global advertising campaign.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-01.jpg" />
 <img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-02.jpg" />
 <img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-03.jpg" />
 <img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-04.jpg" />
 <img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-05.jpg" />
-
+---
 ### 4.2. Mood Poster Generator
 
 This prompt is designed for anyone who wants to create a strong visual from a single emotion.
@@ -700,10 +737,13 @@ INSTRUCTIONS
 14. Ensure the image reads as intentional, calm, and aesthetically cohesive.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-01.jpg" />
 <img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-02.jpg" />
-
+---
 ### 4.3. Chat Bubble Cinematic
 
 Turn quotes, jokes, ideas, or iconic moments into cinematic visuals.
@@ -854,13 +894,16 @@ INSTRUCTIONS
 18. Ensure the final image feels realistic, premium, and commercially polished.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-01.jpg" />
 <img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-02.jpg" />
 <img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-03.jpg" />
 <img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-04.jpg" />
 <img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-05.jpg" />
-
+---
 ### 4.4. Sand-Form Beauty Ad
 
 **Prompt:**
@@ -880,10 +923,13 @@ Add restrained premium post-processing: high dynamic range, crisp micro-contrast
 Avoid text, logos, borders, extra objects, and any additional people.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-01.jpg" />
 <img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-02.jpg" />
-
+---
 ### 4.5. Ingredient Breakdown Reveal
 
 Upload Any Product. See What’s Really Inside!
@@ -921,12 +967,15 @@ Crisp studio lighting, exaggerated layer separation for clarity and impact.
 Flat or softly graded background inspired by modern tech and startup visuals.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-01.jpg" />
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-02.jpg" />
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-03.jpg" />
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-04.jpg" />
-
+---
 ## 5. Movie Making & Storytelling & Comics
 
 ### 5.1. Parallel Storyboard Grid
@@ -979,12 +1028,15 @@ Avoid text, captions, labels, UI elements, frames, borders, graphic overlays, an
 Ensure the final image reads clearly as three parallel cinematic micro-stories and feels iconic, coherent, and cinematically powerful
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-01.jpg" />
 <img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-02.jpg" />
 <img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-03.jpg" />
 <img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-04.jpg" />
-
+---
 ### 5.2. Bullet Dodge Kitchen
 
 **Prompt:**
@@ -1013,11 +1065,14 @@ Ensure the image feels candid, humorous, and convincingly real.
 Avoid visual effects, motion trails, stylization, cinematic grading, or slow-motion cues.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-01.jpg" />
 <img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-02.jpg" />
 <img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-03.jpg" />
-
+---
 ### 5.3. Parametric Comic Scenes
 
 **Prompt:**
@@ -1094,12 +1149,15 @@ INSTRUCTIONS
 18. Ensure the final output reads clearly as a single cohesive multi-panel comic illustration.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-01.jpg" />
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-02.jpg" />
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-03.jpg" />
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-04.jpg" />
-
+---
 ## 6. Cities & Architecture
 
 ### 6.1. Stacked Megacity Sculpture
@@ -1133,12 +1191,15 @@ Keep the background minimal with a bright sky gradient and soft clouds.
 Ensure visual impact, coherence, and stylistic integrity.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-01.jpg" />
 <img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-02.jpg" />
 <img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-03.jpg" />
 <img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-04.jpg" />
-
+---
 ### 6.2. Landmark Re-Designed
 
 What If Landmarks Had a Different Designer?
@@ -1153,10 +1214,13 @@ Capture it at its real-world site and structurally plausible architecture consis
 Render it as an authentic modern on-location photo with realistic lighting, atmosphere, perspective, and surrounding context, indistinguishable from a real photograph.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-01.jpg" />
 <img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-02.jpg" />
-
+---
 ### 6.3. City Tree Monument
 
 This prompt imagines world cities as living monuments carved into colossal ancient trees.
@@ -1200,12 +1264,15 @@ Keep the composition cinematic, timeless, and awe-inspiring, with no modern elem
 Render in ultra-high resolution with sharp focus, realistic shadows, and museum-grade artistic quality.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-01.jpg" />
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-02.jpg" />
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-03.jpg" />
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-04.jpg" />
-
+---
 ## 7. Worlds & Dioramas
 
 ### 7.1. Flag Myth Diorama
@@ -1234,12 +1301,15 @@ Compose the scene as a visual legend that could be passed down through generatio
 Ensure the final image feels iconic, timeless, and cinematically powerful.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-01.jpg" />
 <img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-02.jpg" />
 <img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-03.jpg" />
 <img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-04.jpg" />
-
+---
 ### 7.2. Time Capsule City Orb
 
 Enter a city, pick a year, and explore cities across time.
@@ -1276,12 +1346,15 @@ Place the year text directly beneath the city name or names as part of the same 
 Ensure the final image feels iconic, timeless, and cinematically powerful.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-01.jpg" />
 <img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-02.jpg" />
 <img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-03.jpg" />
 <img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-04.jpg" />
-
+---
 ### 7.3. IMAX Aerial Creature Shot
 
 This prompt turns any creature into an IMAX-level, ultra-photoreal aerial shot.
@@ -1373,13 +1446,16 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid illustration, digital art, stylization, text, logos, borders, watermarks, extra creatures.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-01.jpg" />
 <img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-02.jpg" />
 <img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-03.jpg" />
 <img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-04.jpg" />
 <img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-05.jpg" />
-
+---
 ### 7.4. Totem Builder
 
 Build your own totem.
@@ -1417,9 +1493,13 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid fantasy elements, abstraction, modern materials, watermarks, text overlays, unpainted heads.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Totem Builder" src="images/totem-builder-01.jpg" />
 <img width="400" alt="Totem Builder" src="images/totem-builder-02.jpg" />
+---
 
 ## 8. Games & Maps
 
@@ -1467,10 +1547,13 @@ Avoid watermarks, logos, borders, or decorative text beyond landmark labels and 
 The final image should feel like a premium 3D match-3 game world map frozen in time, presented as a collectible miniature city.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-01.jpg" />
 <img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-02.jpg" />
-
+---
 ### 8.2. Candy Crush City Map
 
 Turning real cities into colorful Candy Crush like match-3 game world maps 🍬🍭
@@ -1510,11 +1593,14 @@ Display only a single title at the very top of the image reading exactly: “[TI
 Avoid watermarks, logos, borders, or decorative text beyond landmark labels and the title.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-01.jpg" />
 <img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-02.jpg" />
 <img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-03.jpg" />
-
+---
 ## 9. Food & Culture
 
 ### 9.1. Dish-As-World Scene
@@ -1555,12 +1641,15 @@ STYLE & QUALITY RULES
 - The final image should visually explain how the dish and its cultural origin naturally come together.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-01.jpg" />
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-02.jpg" />
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-03.jpg" />
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-04.jpg" />
-
+---
 ## 10. Holidays & Humor
 
 ### 10.1. New Year Photo Booth Strip
@@ -1590,10 +1679,13 @@ Preserve photographic realism with accurate paper texture, believable enlarged p
 Avoid all text, logos, UI elements, watermarks, overlays, phones, visible numbers, showing the person outside the prints, and any artificial effects.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-01.jpg" />
 <img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-02.jpg" />
-
+---
 ### 10.2. Wrapped Chair Prank Gift
 
 To generate viral surprise gift images, use this prompt.
@@ -1625,10 +1717,13 @@ Preserve a deliberately absurd, humorous, and prank-like tone by presenting an o
 Do not add any text, captions, logos, or UI elements.
 ```
 
-**Example Outputs:**
+####Example Outputs:
+
+---
+
 <img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-01.jpg" />
 <img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-02.jpg" />
-
+---
 ## License
 
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
