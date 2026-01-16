@@ -8,12 +8,14 @@ A curated collection of Nano Banana Pro prompts with example outputs. Each promp
 2. [Style & Transformation](#2-style-transformation)
 3. [Fashion & Product Imaging](#3-fashion-product-imaging)
 4. [Advertising & Branding Concepts](#4-advertising-branding-concepts)
-5. [Storytelling & Comics](#5-storytelling-comics)
+5. [Movie Making & Storytelling & Comics](#5-movie-making-storytelling-comics)
 6. [Cities & Architecture](#6-cities-architecture)
 7. [Worlds & Dioramas](#7-worlds-dioramas)
 8. [Games & Maps](#8-games-maps)
 9. [Food & Culture](#9-food-culture)
 10. [Holidays & Humor](#10-holidays-humor)
+
+<a id="1-portraits-identity"></a>
 
 ## 1. Portraits & Identity
 
@@ -303,6 +305,8 @@ Do not add a second cat, do not angle the cat’s head away from the camera, do 
 
 <img width="400" alt="Orange Cat Eye Cover" src="images/orange-cat-eye-cover-01.jpg" />
 
+<a id="2-style-transformation"></a>
+
 ## 2. Style & Transformation
 
 ### 2.1. Make Anything Bloom
@@ -442,6 +446,8 @@ Add cartoon-style objects and accessories to the uploaded image
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-02.jpg" />
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-03.jpg" />
 
+<a id="3-fashion-product-imaging"></a>
+
 ## 3. Fashion & Product Imaging
 
 ### 3.1. Life-Size Collectible Box
@@ -568,6 +574,8 @@ Ensure clarity and professional finish.
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-02.jpg" />
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-03.jpg" />
 <img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-04.jpg" />
+
+<a id="4-advertising-branding-concepts"></a>
 
 ## 4. Advertising & Branding Concepts
 
@@ -940,6 +948,8 @@ Flat or softly graded background inspired by modern tech and startup visuals.
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-03.jpg" />
 <img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-04.jpg" />
 
+<a id="5-movie-making-storytelling-comics"></a>
+
 ## 5. Movie Making & Storytelling & Comics
 
 ### 5.1. Parallel Storyboard Grid
@@ -1116,6 +1126,8 @@ INSTRUCTIONS
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-03.jpg" />
 <img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-04.jpg" />
 
+<a id="6-cities-architecture"></a>
+
 ## 6. Cities & Architecture
 
 ### 6.1. Stacked Megacity Sculpture
@@ -1224,6 +1236,8 @@ Render in ultra-high resolution with sharp focus, realistic shadows, and museum-
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-02.jpg" />
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-03.jpg" />
 <img width="400" alt="City Tree Monument" src="images/city-tree-monument-04.jpg" />
+
+<a id="7-worlds-dioramas"></a>
 
 ## 7. Worlds & Dioramas
 
@@ -1444,6 +1458,8 @@ Avoid fantasy elements, abstraction, modern materials, watermarks, text overlays
 <img width="400" alt="Totem Builder" src="images/totem-builder-01.jpg" />
 <img width="400" alt="Totem Builder" src="images/totem-builder-02.jpg" />
 
+<a id="8-games-maps"></a>
+
 ## 8. Games & Maps
 
 ### 8.1. Match-3 City Diorama
@@ -1540,6 +1556,8 @@ Avoid watermarks, logos, borders, or decorative text beyond landmark labels and 
 <img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-02.jpg" />
 <img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-03.jpg" />
 
+<a id="9-food-culture"></a>
+
 ## 9. Food & Culture
 
 ### 9.1. Dish-As-World Scene
@@ -1586,6 +1604,8 @@ STYLE & QUALITY RULES
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-02.jpg" />
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-03.jpg" />
 <img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-04.jpg" />
+
+<a id="10-holidays-humor"></a>
 
 ## 10. Holidays & Humor
 
