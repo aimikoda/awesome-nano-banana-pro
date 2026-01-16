@@ -4,16 +4,16 @@ A curated collection of Nano Banana Pro prompts with example outputs. Each promp
 
 ## Table of Contents
 
-1. [Portraits & Identity](#portraits-identity)
-2. [Style & Transformation](#style-transformation)
-3. [Fashion & Product Imaging](#fashion-product-imaging)
-4. [Advertising & Branding Concepts](#advertising-branding-concepts)
-5. [Storytelling & Comics](#storytelling-comics)
-6. [Cities & Architecture](#cities-architecture)
-7. [Worlds & Dioramas](#worlds-dioramas)
-8. [Games & Maps](#games-maps)
-9. [Food & Culture](#food-culture)
-10. [Holidays & Humor](#holidays-humor)
+1. [Portraits & Identity](#portraits--identity)
+2. [Style & Transformation](#style--transformation)
+3. [Fashion & Product Imaging](#fashion--product-imaging)
+4. [Advertising & Branding Concepts](#advertising--branding-concepts)
+5. [Storytelling & Comics](#storytelling--comics)
+6. [Cities & Architecture](#cities--architecture)
+7. [Worlds & Dioramas](#worlds--dioramas)
+8. [Games & Maps](#games--maps)
+9. [Food & Culture](#food--culture)
+10. [Holidays & Humor](#holidays--humor)
 
 ## 1. Portraits & Identity
 
