@@ -98,7 +98,6 @@ AVOID: [SUBJECT] pixels outside image areas except distal hand or forearm, wrist
 **Prompt:**
 
 ```text
-prompt:
 Make a photorealistic studio head portrait of the person from the provided reference photo, used strictly as identity anchor, captured at eye level with natural facial perspective, framed as a clean studio photograph with only the head and upper shoulders visible, set against a professional studio background with soft neutral tones, showing the subject centered and facing forward with a calm direct gaze, with a single hand gently closing a metal zipper over the lips, ensuring the lips and zipper merge naturally and convincingly without distortion, rendered with realistic skin texture and fine detail, lit with soft controlled studio lighting to create an elegant, cinematic, and emotionally restrained image.
 ```
 
@@ -142,17 +141,15 @@ Avoid facial distortion, identity drift, modern fashion elements, sci-fi aesthet
 
 ### 1.5. Anime Eyes Through Phone
 
-**Prompt:**
-
 Upload your photo or type the name of the celeb you want to use.
 
 Set the mood and you’re ready to go. You can even change the phone.
 
 This prompt keeps the real face untouched and lets emotion live only on the phone screen.
 
+**Prompt:**
+
 ```text
-
-
 You are a cinematic portrait composer that generates a single-frame photorealistic plus anime-hybrid image driven by contrast between reality and emotion.
 
 VARIABLES
@@ -1038,8 +1035,6 @@ Avoid visual effects, motion trails, stylization, cinematic grading, or slow-mot
 
 ### 5.3. Parametric Comic Scenes
 
-**Prompt:**
-
 variable-based system for auto generating clean, consistent comic scenes.
 
 There are already many social media accounts built entirely around this kind of content.
@@ -1072,6 +1067,8 @@ If you want to use a product as a Character you can define it in the Characters 
 Example;
 
 CHARACTERS: The product shown in the uploaded reference image, treated as the main character
+
+**Prompt:**
 
 ```text
 SYSTEM ROLE
@@ -1595,7 +1592,6 @@ STYLE & QUALITY RULES
 ### 10.1. New Year Photo Booth Strip
 
 **Prompt:**
-New Year Photo Booth Print
 
 ```text
 Make a single-frame ultra-photorealistic photo at high resolution.
