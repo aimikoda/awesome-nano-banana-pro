@@ -3,6 +3,7 @@
 A curated collection of Nano Banana Pro prompts with example outputs. Each prompt is grouped by theme and includes the full text for direct use.
 
 ## Table of Contents
+
 1. [Portraits & Identity](#portraits-identity)
 2. [Style & Transformation](#style-transformation)
 3. [Fashion & Product Imaging](#fashion-product-imaging)
@@ -18,41 +19,30 @@ A curated collection of Nano Banana Pro prompts with example outputs. Each promp
 
 ### 1.1. Name Meaning Portrait
 
-<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-01.jpg" />
-<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-02.jpg" />
-<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-03.jpg" />
+Turn Your Name’s Meaning Into an Iconic Portrait
 
 **Prompt:**
+
 ```text
-Your name already has a story. 
-This nano banana pro prompt turns it into an iconic portrait.
-
-Prompt:
-
 [NAME] = Your name
 [SUBJECT] = The person shown in the uploaded reference image
 
 Make a symbolic portrait reinterpretation for artistic editorial use, using a medium-close framing at eye level with a calm, centered composition, set within an abstract environment derived from the etymological and cultural meaning of [NAME], with [SUBJECT] placed as the sole figure in the midground, preserving the facial structure, facial proportions, expression, and overall likeness of [SUBJECT] exactly as in the reference image, allowing no alteration, stylization, or reinterpretation of the face under any circumstance, avoiding any reuse, reference, or derivation of clothing, accessories, or styling from the reference image, and instead designing a new outfit that supports the mood and symbolism of [NAME] without echoing the original wardrobe, translating the meaning of [NAME] into visual elements such as light behavior, color palette, atmosphere, natural forces, or metaphoric forms surrounding [SUBJECT], reflecting the name’s meaning through mood and symbolism rather than literal text, letters, or icons, using lighting direction, intensity, and color temperature to reinforce the emotional essence of [NAME], integrating symbolic elements so they feel physically and spatially connected to [SUBJECT] rather than decorative, keeping the background restrained and uncluttered with no readable text, and ensuring strong visual impact, coherence, and stylistic integrity throughout the composition.
 ```
 
+**Example Outputs:**
+
+<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-01.jpg" />
+<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-02.jpg" />
+<img width="400" alt="Name Meaning Portrait" src="images/name-meaning-portrait-03.jpg" />
+
 ### 1.2. Fragmented Identity Prints
 
-<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-01.jpg" />
-<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-02.jpg" />
-<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-03.jpg" />
-<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-04.jpg" />
-<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-05.jpg" />
-
 **Prompt:**
+This prompt enforces a strict physical illusion: multiple instant-photo prints, one subject.
+You can use it with your own photos. Change the variables as you want and generate.
+
 ```text
-Fragmented Identity
-
-This prompt enforces a strict physical illusion: multiple instant-photo prints, one subject 🖼️📸
-
-You can use it with your own photos. Change the variables as you want and generate. 
-
-Here is the prompt for Nano Banana Pro:
-
 [SUBJECT] = the person shown in the uploaded reference image (identity anchor only)
 [FRAME_COUNT] = 4
 [SCENE_BG] = neutral textured studio wall
@@ -94,29 +84,32 @@ RULES:
 AVOID: [SUBJECT] pixels outside image areas except distal hand or forearm, wrist outside image areas, face outside image areas, hair outside image areas, torso or legs or clothing outside image areas, elbows or upper arms outside image areas, extra hands, extra arms, duplicated limbs, independent-photo framing, editorial detail shots, watermarks, signatures, text
 ```
 
+**Example Outputs:**
+
+<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-01.jpg" />
+<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-02.jpg" />
+<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-03.jpg" />
+<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-04.jpg" />
+<img width="400" alt="Fragmented Identity Prints" src="images/fragmented-identity-prints-05.jpg" />
+
 ### 1.3. Zipped Lips Portrait
 
-<img width="400" alt="Zipped Lips Portrait" src="images/zipped-lips-portrait-01.jpg" />
-
 **Prompt:**
+
 ```text
 prompt:
 Make a photorealistic studio head portrait of the person from the provided reference photo, used strictly as identity anchor, captured at eye level with natural facial perspective, framed as a clean studio photograph with only the head and upper shoulders visible, set against a professional studio background with soft neutral tones, showing the subject centered and facing forward with a calm direct gaze, with a single hand gently closing a metal zipper over the lips, ensuring the lips and zipper merge naturally and convincingly without distortion, rendered with realistic skin texture and fine detail, lit with soft controlled studio lighting to create an elegant, cinematic, and emotionally restrained image.
 ```
 
+**Example Output:**
+<img width="400" alt="Zipped Lips Portrait" src="images/zipped-lips-portrait-01.jpg" />
+
 ### 1.4. Primal Archetype Portrait
 
-<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-01.jpg" />
-<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-02.jpg" />
-<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-03.jpg" />
-<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-04.jpg" />
-
+Upload your picture and reveal its darker, ancient, or sacred forms.
 **Prompt:**
+
 ```text
-Upload one face and reveal its darker, ancient, or sacred forms.
-
-Nano Banana Pro Prompt:
-
 [SUBJECT] = use the uploaded reference image as the sole subject and identity anchor
 [SHOT_TYPE] = head_portrait | bust_portrait | half_body | full_body
 [UNIFIED_MOOD] = primal_dark | primal_sacred | primal_feral | primal_earthbound | refined_dark | refined_sacred | refined_mystic | refined_celestial | ascetic_ritual | shamanic_ancient | monolithic_icon | forgotten_deity
@@ -138,22 +131,24 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid facial distortion, identity drift, modern fashion elements, sci-fi aesthetics, text overlays, watermarks.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-01.jpg" />
+<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-02.jpg" />
+<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-03.jpg" />
+<img width="400" alt="Primal Archetype Portrait" src="images/primal-archetype-portrait-04.jpg" />
+
 ### 1.5. Anime Eyes Through Phone
 
-<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-01.jpg" />
-<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-02.jpg" />
-<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-03.jpg" />
-<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-04.jpg" />
-
 **Prompt:**
-```text
+
 Upload your photo or type the name of the celeb you want to use.
 
 Set the mood and you’re ready to go. You can even change the phone.
 
 This prompt keeps the real face untouched and lets emotion live only on the phone screen.
 
-Moods expressed through anime eyes.
+```text
+
 
 You are a cinematic portrait composer that generates a single-frame photorealistic plus anime-hybrid image driven by contrast between reality and emotion.
 
@@ -209,18 +204,19 @@ OUTPUT
 Produce exactly one final image following these instructions.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-01.jpg" />
+<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-02.jpg" />
+<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-03.jpg" />
+<img width="400" alt="Anime Eyes Through Phone" src="images/anime-eyes-through-phone-04.jpg" />
+
 ### 1.6. Mixed Media Portrait Trio
 
-<img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-01.jpg" />
-<img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-02.jpg" />
-
-**Prompt:**
-```text
 Change the variables and you are ready to go!
 (Subject, Accesories and Painting)
+**Prompt:**
 
-Prompt:
-
+```text
 VARIABLES
 LEFT_SUBJECT = Dua Lipa
 CENTER_SUBJECT = Anya Taylor-Joy
@@ -271,14 +267,15 @@ Ensure a strong visual contrast where the women appear clearly photographic and 
 Avoid any artist signature, watermark, embedded text, or illustrative stylization on the human subjects.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-01.jpg" />
+<img width="400" alt="Mixed Media Portrait Trio" src="images/mixed-media-portrait-trio-02.jpg" />
+
 ### 1.7. Orange Cat Eye Cover
 
-<img width="400" alt="Orange Cat Eye Cover" src="images/orange-cat-eye-cover-01.jpg" />
-
 **Prompt:**
-```text
-Prompt:
 
+```text
 Make a single-frame professional studio photo output; set high resolution.
 
 Use the person from the uploaded reference photo as the subject; preserve facial structure, body proportions, and realism.
@@ -300,26 +297,23 @@ Preserve photographic realism, believable scale between cat and human, clear eye
 Do not add a second cat, do not angle the cat’s head away from the camera, do not crop or cut off any part of the cat or paws, do not cover only one eye, do not alter the subject’s identity, do not stylize the human figure, do not apply orange color grading to skin, do not add text, logos, UI elements, surreal distortion, cartoon style, or fantasy aesthetics.
 ```
 
+**Example Output:**
+<img width="400" alt="Orange Cat Eye Cover" src="images/orange-cat-eye-cover-01.jpg" />
+
 ## 2. Style & Transformation
 
 ### 2.1. Make Anything Bloom
 
-<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-01.jpg" />
-<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-02.jpg" />
-<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-03.jpg" />
-<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-04.jpg" />
-
-**Prompt:**
-```text
 Make Anything Bloom 🪻🌺
 
 Transform any image by letting flowers, grass, and greenery bloom naturally from realistic surfaces, while preserving the original scene and composition.
 
-HOW TO USE — IMAGE PROMPT
+_HOW TO USE — IMAGE PROMPT_
 
-1) Upload an image
-You can upload anything.
-Examples:
+1. Upload an image
+   You can upload anything.
+   Examples:
+
 - a keyboard
 - a camera
 - a perfume bottle
@@ -328,30 +322,33 @@ Examples:
 - an animal
 - a random object
 
-2) Paste the prompt
-Use the visual prompt that adds natural vegetation to the uploaded image.
+2. Paste the prompt
+   Use the visual prompt that adds natural vegetation to the uploaded image.
 
-3) What the prompt does
+3. What the prompt does
+
 - Keeps the original camera angle, position, and background.
 - Adds grass, flowers, and moss naturally.
 - Plants grow only from realistic gaps, seams, and surfaces.
 - The subject stays fully recognizable.
 
-4) Example use cases
+4. Example use cases
+
 - Product photo → flowers growing between details.
 - Portrait → subtle plants emerging from clothing seams or accessories.
 - Object → nature gently reclaiming it.
 - Minimal scene → organic, cinematic enhancement.
 
-5) Run and adjust if needed
-If the result feels too strong or too subtle, regenerate.
-The prompt is designed to work safely without breaking composition.
+5. Run and adjust if needed
+   If the result feels too strong or too subtle, regenerate.
+   The prompt is designed to work safely without breaking composition.
 
 Tip:
 Best results come from clean, well-lit images with clear subject separation.
 
-Prompt:
+**Prompt:**
 
+```text
 VARIABLES
 [MAIN_SUBJECT] = uploaded reference image
 [PLANT_DENSITY] = balanced
@@ -383,23 +380,23 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid text, labels, watermarks, excessive fantasy elements.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-01.jpg" />
+<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-02.jpg" />
+<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-03.jpg" />
+<img width="400" alt="Make Anything Bloom" src="images/make-anything-bloom-04.jpg" />
+
 ### 2.2. Frozen Moment in Ice
 
-<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-01.jpg" />
-<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-02.jpg" />
-<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-03.jpg" />
-
-**Prompt:**
-```text
 People, animals, iconic characters or products.
 All frozen inside a single moment, trapped in ice ❄️
 
 Just change the variables and generate.
 Frozen moments. Cinematic stillness.
 
-Prompt:
+**Prompt:**
 
-VARIABLES
+```text
 [SUBJECT_DETAIL] = a Mountain Dew can with bold logo fully visible, partially opened, aggressive aluminum deformation
 [ICE_FORM] = massive crystal-clear ice block
 [STATE_OF_SUBJECT] = frozen mid-explosion with extreme energy
@@ -421,34 +418,33 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid text overlays, watermarks, unbranded cans, cartoon style, low-detail rendering.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-01.jpg" />
+<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-02.jpg" />
+<img width="400" alt="Frozen Moment in Ice" src="images/frozen-moment-in-ice-03.jpg" />
+
 ### 2.3. Cartoon Accessory Add-On
 
+**Prompt:**
+
+```text
+Add cartoon-style objects and accessories to the uploaded image
+```
+
+**Example Outputs:**
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-01.jpg" />
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-02.jpg" />
 <img width="400" alt="Cartoon Accessory Add-On" src="images/cartoon-accessory-add-on-03.jpg" />
-
-**Prompt:**
-```text
-Prompt:
-
-Add cartoon-style objects and accessories to the uploaded image
-```
 
 ## 3. Fashion & Product Imaging
 
 ### 3.1. Life-Size Collectible Box
 
-<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-01.jpg" />
-<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-02.jpg" />
-<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-03.jpg" />
-<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-04.jpg" />
-
-**Prompt:**
-```text
 Turn yourself into a life-size collectible. 💖
 
-Prompt:
+**Prompt:**
 
+```text
 [SUBJECT] = the person shown in the uploaded reference image
 [BOX_TYPE] = Barbie Box
 
@@ -469,20 +465,17 @@ Maintain clean edges, clear separation between subject, box, and background.
 Ensure the final image feels iconic, immersive, and immediately recognizable as a themed display box concept.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-01.jpg" />
+<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-02.jpg" />
+<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-03.jpg" />
+<img width="400" alt="Life-Size Collectible Box" src="images/life-size-collectible-box-04.jpg" />
+
 ### 3.2. Flat-Lay Outfit Builder
-
-<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-01.jpg" />
-<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-02.jpg" />
-<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-03.jpg" />
-<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-04.jpg" />
-
-**Prompt:**
-```text
-Flat-Lay Outfit Builder👖🧥👗
 
 Generates anatomy-free flat-lay outfit visuals with precise control over style, layout, surface, and accessories.
 
-HOW TO USE PARAMETERS
+_HOW TO USE PARAMETERS_
 
 OUTFIT_STYLE
 Either use the outfit from the reference image, or select a single predefined style.
@@ -502,8 +495,9 @@ Choose only one mode.
 Decide whether accessories are part of the outfit, decorative elements, or fully excluded.
 Do not mix modes in the same prompt.
 
-Prompt:
+**Prompt:**
 
+```text
 [OUTFIT_STYLE] = Use the outfit from the reference image | casual utilitarian womenswear | casual mens streetwear
 [COMPOSITION_SCHEME] = seated-inspired angular layout | standing-inspired vertical layout | walking-inspired offset layout | dynamic diagonal layout | balance-inspired asymmetric layout | editorial flat-lay grid break | sculptural negative-space layout | yoga-inspired angular balance layout | athletic-inspired directional layout
 [SURFACE] = clean matte studio backdrop | soft neutral paper surface | cool tone matte backdrop
@@ -541,19 +535,17 @@ Avoid mannequins, models, body silhouettes, stuffing, air filled shapes, extra i
 Ensure clarity, accurate fabric texture, and a calm contemporary aesthetic.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-01.jpg" />
+<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-02.jpg" />
+<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-03.jpg" />
+<img width="400" alt="Flat-Lay Outfit Builder" src="images/flat-lay-outfit-builder-04.jpg" />
+
 ### 3.3. ClearShell Product Transformation
 
-<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-01.jpg" />
-<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-02.jpg" />
-<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-03.jpg" />
-<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-04.jpg" />
-
 **Prompt:**
+
 ```text
-ClearShell Product Transformation 
-
-Prompt for Nano Banana Pro:
-
 Make a photorealistic product image using the uploaded reference product.
 Keep the original shape, scale, and details exactly the same.
 Replace the outer casing with fully transparent clear plastic.
@@ -563,32 +555,28 @@ Avoid color tinting, distortion, or opaque materials.
 Ensure clarity and professional finish.
 ```
 
+**Example Outputs:**
+<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-01.jpg" />
+<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-02.jpg" />
+<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-03.jpg" />
+<img width="400" alt="ClearShell Product Transformation" src="images/clearshell-product-transformation-04.jpg" />
+
 ## 4. Advertising & Branding Concepts
 
 ### 4.1. Impact Splash Ad
 
-<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-01.jpg" />
-<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-02.jpg" />
-<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-03.jpg" />
-<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-04.jpg" />
-<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-05.jpg" />
+Example Variables:
 
-**Prompt:**
-```text
-Prompt Template:
+SUBJECT:
 
-You are an intelligent commercial image composition model.
-
-SUBJECT: {SUBJECT}
-Examples:
 - A human adult figure
 - A Nike performance sneaker
 - A rubber duck
 - A cluster of granola pieces
 - A sausage
 
-LIQUID TYPE: {LIQUID_TYPE}
-Examples:
+LIQUID TYPE:
+
 - Water
 - Milk
 - Oat milk
@@ -597,27 +585,38 @@ Examples:
 - Black ink
 - Mustard
 
-IMPACT DISTANCE: {IMPACT_DISTANCE}
-Examples:
+IMPACT DISTANCE:
+
 - Zero
 - Very close
 - Medium
 - Far
 
-SPLASH INTENSITY: {SPLASH_INTENSITY}
-Examples:
+SPLASH INTENSITY:
+
 - Low
 - Medium
 - High
 - Extreme
 
-COLOR THEME: {COLOR_THEME}
-Examples:
+COLOR THEME:
+
 - Clean whites and soft creamy tones
 - Cool blues and aqua highlights
 - Natural sand tones with warm beige
 - High-contrast black and white
 - Brand color palette from reference image
+
+  **Prompt:**
+
+```text
+You are an intelligent commercial image composition model.
+
+SUBJECT: A human adult figure
+LIQUID TYPE: Water
+IMPACT DISTANCE: Very Close
+SPLASH INTENSITY: Mediumx
+COLOR THEME: Cool blues and aqua highlights
 
 TEXT: {TEXT}
 TEXT_LANG: {TEXT_LANG}
@@ -652,16 +651,16 @@ STYLE & QUALITY RULES:
 The final image should feel like a hero visual from a global advertising campaign.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-01.jpg" />
+<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-02.jpg" />
+<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-03.jpg" />
+<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-04.jpg" />
+<img width="400" alt="Impact Splash Ad" src="images/impact-splash-ad-05.jpg" />
+
 ### 4.2. Mood Poster Generator
 
-<img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-01.jpg" />
-<img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-02.jpg" />
-
-**Prompt:**
-```text
 This prompt is designed for anyone who wants to create a strong visual from a single emotion.
-
-Works on Gemini Nano Banana Pro and even the Nano Banana version. Both.
 
 It is mood-driven.
 Style-flexible.
@@ -669,8 +668,9 @@ You can write the text yourself, or let it generate one for you.
 Photography, illustration, anime, 3D, or minimal graphics.
 Everything stays coherent within the same clean structure.
 
-Here is the prompt, just change the variables.
---
+**Prompt:**
+
+```text
 You are a minimalist visual mood composer that generates a single-frame artistic image driven primarily by emotional tone.
 
 VARIABLES
@@ -700,22 +700,16 @@ INSTRUCTIONS
 14. Ensure the image reads as intentional, calm, and aesthetically cohesive.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-01.jpg" />
+<img width="400" alt="Mood Poster Generator" src="images/mood-poster-generator-02.jpg" />
+
 ### 4.3. Chat Bubble Cinematic
 
-<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-01.jpg" />
-<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-02.jpg" />
-<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-03.jpg" />
-<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-04.jpg" />
-<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-05.jpg" />
-
-**Prompt:**
-```text
 Turn quotes, jokes, ideas, or iconic moments into cinematic visuals.
 Use it for ads, memes, concepts, or just pure imagination.
 
-*Change Variables Only*
-
-Example Variables: 
+Example Variables:
 (You can ask ChatGPT or Gemini to fill these variables for your concept)
 
 VARIABLES
@@ -726,18 +720,21 @@ PRIMARY_TEXT_COLOR: near-black
 SECONDARY_TEXT_COLOR: light gray for timestamps and UI details
 
 ACCENT_COLORS:
+
 - Joker: glossy acid green with a subtle yellow tint
 - Deadpool: glossy deep red with a slight dark gradient
 
 BUBBLE_COUNT: 4
 BUBBLE_LAYOUT: stacked vertically with generous spacing
 BUBBLE_STYLE:
+
 - SHAPE: oversized horizontal rounded chat bubbles
 - FINISH: glossy with soft inner gradient
 - SHADOW: subtle realistic drop shadow
 - OUTLINE: none
 
 TYPOGRAPHY:
+
 - FONT_FAMILY: modern sans-serif
 - WEIGHT: medium
 - ALIGNMENT: left
@@ -746,6 +743,7 @@ TIMESTAMP_TEXT: 9:41 PM
 MESSAGE_ICON_STYLE: small blue double-check icons placed before timestamp
 
 PARTICIPANTS:
+
 - NAME: Joker
   DESCRIPTION: Joker from Batman universe
   SIDE: left
@@ -754,6 +752,7 @@ PARTICIPANTS:
   SIDE: right
 
 MESSAGES:
+
 1. SENDER: Joker
    TEXT: “Why so serious?”
    REACTION: unsettling calm smile, head slightly tilted, confident stillness
@@ -772,8 +771,9 @@ LIGHTING_STYLE: soft cinematic studio lighting with controlled contrast and gent
 COLOR_MOOD: chaotic, humorous, cinematic, self-aware
 SIGNATURE: Aimi Koda, bottom-right in muted gray
 
-Prompt Template:
+**Prompt:**
 
+```text
 SYSTEM ROLE
 You are a visual scene composer and commercial illustration designer that generates clean, high-resolution advertising-ready illustrations with photorealistic human characters and glossy chat-bubble UI elements.
 
@@ -854,17 +854,18 @@ INSTRUCTIONS
 18. Ensure the final image feels realistic, premium, and commercially polished.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-01.jpg" />
+<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-02.jpg" />
+<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-03.jpg" />
+<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-04.jpg" />
+<img width="400" alt="Chat Bubble Cinematic" src="images/chat-bubble-cinematic-05.jpg" />
+
 ### 4.4. Sand-Form Beauty Ad
 
-<img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-01.jpg" />
-<img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-02.jpg" />
-
 **Prompt:**
+
 ```text
-Sandy  x Billie Eilish & Dua Lipa with Nano Banana Pro
-
-Prompt:
-
 Create a high-resolution vertical advertising-style studio photo featuring {PERSON_NAME}.
 Show a single adult female subject in a chest-up portrait that fills the frame with no cropping of the head, hair, neck, shoulders, or upper chest.
 Pose the subject in a polished campaign stance: shoulders slightly angled, head subtly tilted, chin gently lifted, and the gaze locked straight into camera.
@@ -879,20 +880,18 @@ Add restrained premium post-processing: high dynamic range, crisp micro-contrast
 Avoid text, logos, borders, extra objects, and any additional people.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-01.jpg" />
+<img width="400" alt="Sand-Form Beauty Ad" src="images/sand-form-beauty-ad-02.jpg" />
+
 ### 4.5. Ingredient Breakdown Reveal
 
-<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-01.jpg" />
-<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-02.jpg" />
-<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-03.jpg" />
-<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-04.jpg" />
-
-**Prompt:**
-```text
 Upload Any Product. See What’s Really Inside!
 Turn Any Food Photo Into a Truthful Ingredient Breakdown with Nano Banana Pro
 Turn any food image into a clear, eye-opening ingredient breakdown.
+**Prompt:**
 
-Prompt:
+```text
 Using the provided reference image, create a bold, startup-style social media visual that highlights the overwhelming presence of harmful ingredients in the product.
 
 The composition shows a side-by-side comparison of the same product:
@@ -922,19 +921,21 @@ Crisp studio lighting, exaggerated layer separation for clarity and impact.
 Flat or softly graded background inspired by modern tech and startup visuals.
 ```
 
-## 5. Storytelling & Comics
+**Example Outputs:**
+<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-01.jpg" />
+<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-02.jpg" />
+<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-03.jpg" />
+<img width="400" alt="Ingredient Breakdown Reveal" src="images/ingredient-breakdown-reveal-04.jpg" />
+
+## 5. Movie Making & Storytelling & Comics
 
 ### 5.1. Parallel Storyboard Grid
 
-<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-01.jpg" />
-<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-02.jpg" />
-<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-03.jpg" />
-<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-04.jpg" />
-
-**Prompt:**
-```text
 Branching one image into three different storylines, with selectable time spans and director style (e.g. Nolan, Tarantino) guiding each sequence.
-Really enjoyed experimenting with it.
+**Prompt:**
+
+```text
+
 
 Here’s the prompt. Feel free to use it and adjust it to your needs.
 
@@ -978,16 +979,17 @@ Avoid text, captions, labels, UI elements, frames, borders, graphic overlays, an
 Ensure the final image reads clearly as three parallel cinematic micro-stories and feels iconic, coherent, and cinematically powerful
 ```
 
+**Example Outputs:**
+<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-01.jpg" />
+<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-02.jpg" />
+<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-03.jpg" />
+<img width="400" alt="Parallel Storyboard Grid" src="images/parallel-storyboard-grid-04.jpg" />
+
 ### 5.2. Bullet Dodge Kitchen
 
-<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-01.jpg" />
-<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-02.jpg" />
-<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-03.jpg" />
-
 **Prompt:**
-```text
-prompt:
 
+```text
 [THROWER] = an adult woman in casual everyday clothing
 [DODGING_SUBJECT] = a young person wearing a loose sweatshirt and jeans
 [LOCATION] = wooden cabinets and a centered back window
@@ -1011,26 +1013,19 @@ Ensure the image feels candid, humorous, and convincingly real.
 Avoid visual effects, motion trails, stylization, cinematic grading, or slow-motion cues.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-01.jpg" />
+<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-02.jpg" />
+<img width="400" alt="Bullet Dodge Kitchen" src="images/bullet-dodge-kitchen-03.jpg" />
+
 ### 5.3. Parametric Comic Scenes
 
-<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-01.jpg" />
-<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-02.jpg" />
-<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-03.jpg" />
-<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-04.jpg" />
-
 **Prompt:**
-```text
-variable-based system for generating clean, consistent comic scenes.
+
+variable-based system for auto generating clean, consistent comic scenes.
 
 There are already many social media accounts built entirely around this kind of content.
 With this prompt, you could easily create one of your own too, and the stories write themselves.
-
-Saw @Gdgtify
- 's custom GPT-style prompting setup, really liked the idea, and ended up trying a small comic-style prompt experiment inspired by it.
-
-Prompt:
-SYSTEM ROLE
-You are a visual scene composer and caption writer that generates a clean, coherent comic-style illustration based on parametric inputs.
 
 Example Prompt Variables:
 
@@ -1060,7 +1055,9 @@ Example;
 
 CHARACTERS: The product shown in the uploaded reference image, treated as the main character
 
-Prompt:
+```text
+SYSTEM ROLE
+You are a visual scene composer and caption writer that generates a clean, coherent comic-style illustration based on parametric inputs.
 
 VARIABLES
 TOPIC: <string describing the core idea or situation of the comic>
@@ -1097,21 +1094,21 @@ INSTRUCTIONS
 18. Ensure the final output reads clearly as a single cohesive multi-panel comic illustration.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-01.jpg" />
+<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-02.jpg" />
+<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-03.jpg" />
+<img width="400" alt="Parametric Comic Scenes" src="images/parametric-comic-scenes-04.jpg" />
+
 ## 6. Cities & Architecture
 
 ### 6.1. Stacked Megacity Sculpture
 
-<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-01.jpg" />
-<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-02.jpg" />
-<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-03.jpg" />
-<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-04.jpg" />
-
-**Prompt:**
-```text
 Generate 3D miniature city dioramas in the form of a sculptural, stacked megacity, using Nano Banana Pro.
 
-Prompt:
+**Prompt:**
 
+```text
 [CITY] = city name here
 
 Make a stylized 3D miniature city diarama illustration.
@@ -1136,17 +1133,18 @@ Keep the background minimal with a bright sky gradient and soft clouds.
 Ensure visual impact, coherence, and stylistic integrity.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-01.jpg" />
+<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-02.jpg" />
+<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-03.jpg" />
+<img width="400" alt="Stacked Megacity Sculpture" src="images/stacked-megacity-sculpture-04.jpg" />
+
 ### 6.2. Landmark Re-Designed
 
-<img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-01.jpg" />
-<img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-02.jpg" />
-
-**Prompt:**
-```text
 What If Landmarks Had a Different Designer?
+**Prompt:**
 
-Nano Banana Pro Prompt:
-
+```text
 [LANDMARK] = Eiffel Tower
 [DESIGNER] = Leonardo da Vinci
 
@@ -1155,21 +1153,17 @@ Capture it at its real-world site and structurally plausible architecture consis
 Render it as an authentic modern on-location photo with realistic lighting, atmosphere, perspective, and surrounding context, indistinguishable from a real photograph.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-01.jpg" />
+<img width="400" alt="Landmark Re-Designed" src="images/landmark-re-designed-02.jpg" />
+
 ### 6.3. City Tree Monument
 
-<img width="400" alt="City Tree Monument" src="images/city-tree-monument-01.jpg" />
-<img width="400" alt="City Tree Monument" src="images/city-tree-monument-02.jpg" />
-<img width="400" alt="City Tree Monument" src="images/city-tree-monument-03.jpg" />
-<img width="400" alt="City Tree Monument" src="images/city-tree-monument-04.jpg" />
-
-**Prompt:**
-```text
 This prompt imagines world cities as living monuments carved into colossal ancient trees.
+Just change the variables and you’re ready to go.
+**Prompt:**
 
-I used Nano Banana Pro. Just change the variables and you’re ready to go.
-
-Here is the prompt: 
-
+```text
 VARIABLES
 [CITY]: Name of the city
 [TIME_OF_DAY]: sunrise | early morning | midday | afternoon | golden hour | sunset | blue hour | night
@@ -1206,23 +1200,22 @@ Keep the composition cinematic, timeless, and awe-inspiring, with no modern elem
 Render in ultra-high resolution with sharp focus, realistic shadows, and museum-grade artistic quality.
 ```
 
+**Example Outputs:**
+<img width="400" alt="City Tree Monument" src="images/city-tree-monument-01.jpg" />
+<img width="400" alt="City Tree Monument" src="images/city-tree-monument-02.jpg" />
+<img width="400" alt="City Tree Monument" src="images/city-tree-monument-03.jpg" />
+<img width="400" alt="City Tree Monument" src="images/city-tree-monument-04.jpg" />
+
 ## 7. Worlds & Dioramas
 
 ### 7.1. Flag Myth Diorama
 
-<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-01.jpg" />
-<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-02.jpg" />
-<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-03.jpg" />
-<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-04.jpg" />
+This Is What Flag Meanings Look Like
+This prompt turns flag meanings into 3D Dioramas
 
 **Prompt:**
+
 ```text
-This Is What Flag Meanings Look Like
-
-I turned flag meanings into 3D Dioramas
-
-Prompt:
-
 [COUNTRY] = Country Name
 
 Create a 3D miniature diorama scene that visualizes a poetic and culturally rooted interpretation of the flag of [COUNTRY].
@@ -1241,23 +1234,20 @@ Compose the scene as a visual legend that could be passed down through generatio
 Ensure the final image feels iconic, timeless, and cinematically powerful.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-01.jpg" />
+<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-02.jpg" />
+<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-03.jpg" />
+<img width="400" alt="Flag Myth Diorama" src="images/flag-myth-diorama-04.jpg" />
+
 ### 7.2. Time Capsule City Orb
-
-<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-01.jpg" />
-<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-02.jpg" />
-<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-03.jpg" />
-<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-04.jpg" />
-
-**Prompt:**
-```text
-Time travel is possible with Nano Banana Pro.
 
 Enter a city, pick a year, and explore cities across time.
 
 This prompt generates a time capsule with a city locked to a single moment in time.
+**Prompt:**
 
-Prompt:
-
+```text
 [CITY_NAME] = city name
 [YEAR] = year
 
@@ -1286,23 +1276,19 @@ Place the year text directly beneath the city name or names as part of the same 
 Ensure the final image feels iconic, timeless, and cinematically powerful.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-01.jpg" />
+<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-02.jpg" />
+<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-03.jpg" />
+<img width="400" alt="Time Capsule City Orb" src="images/time-capsule-city-orb-04.jpg" />
+
 ### 7.3. IMAX Aerial Creature Shot
 
-<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-01.jpg" />
-<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-02.jpg" />
-<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-03.jpg" />
-<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-04.jpg" />
-<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-05.jpg" />
-
-**Prompt:**
-```text
-This prompt turns any creature into an IMAX-level, ultra-photoreal aerial shot. 
+This prompt turns any creature into an IMAX-level, ultra-photoreal aerial shot.
 
 Drop in a subject, pick a view, and let it look like it was actually filmed from the sky.
 
 Perfect for posters, key visuals, and high-impact concept shots.
-
-Created with nano banana pro. 
 
 Variable Examples:
 
@@ -1359,8 +1345,9 @@ side profile view, camera perpendicular to subject
 low-angle view, camera looking upward
 high-angle view, camera looking down
 
-Example Prompt:
+**Prompt:**
 
+```text
 [SUBJECT] = white dragon
 [TIME_OF_DAY] = night
 [FLYING_OVER] = dense emerald forest canopy
@@ -1386,17 +1373,19 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid illustration, digital art, stylization, text, logos, borders, watermarks, extra creatures.
 ```
 
+**Example Outputs:**
+<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-01.jpg" />
+<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-02.jpg" />
+<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-03.jpg" />
+<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-04.jpg" />
+<img width="400" alt="IMAX Aerial Creature Shot" src="images/imax-aerial-creature-shot-05.jpg" />
+
 ### 7.4. Totem Builder
 
-<img width="400" alt="Totem Builder" src="images/totem-builder-01.jpg" />
-<img width="400" alt="Totem Builder" src="images/totem-builder-02.jpg" />
-
+Build your own totem.
 **Prompt:**
+
 ```text
-Build your own totem. 
-
-Prompt:
-
 [HEAD_1] = Spider-Man
 [HEAD_2] = Captain America
 [HEAD_3] = Black Widow
@@ -1428,17 +1417,17 @@ Ensure the final image feels iconic, timeless, and cinematically powerful.
 Avoid fantasy elements, abstraction, modern materials, watermarks, text overlays, unpainted heads.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Totem Builder" src="images/totem-builder-01.jpg" />
+<img width="400" alt="Totem Builder" src="images/totem-builder-02.jpg" />
+
 ## 8. Games & Maps
 
 ### 8.1. Match-3 City Diorama
 
-<img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-01.jpg" />
-<img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-02.jpg" />
-
 **Prompt:**
-```text
-Prompt:
 
+```text
 You are a visual generation system that creates a 3D miniature city diorama that looks like a physical, three-dimensional match-3 puzzle game world map.
 
 VARIABLES
@@ -1462,10 +1451,10 @@ Position these icons directly on the path, spaced rhythmically like match-3 coll
 They should feel glossy, candy-like, slightly oversized, and designed for touch interaction.
 
 Ensure the entire scene follows a bright, casual, polished match-3 art style:
-– rounded geometry  
-– saturated, cheerful colors  
-– soft lighting  
-– subtle plastic, clay, or candy-like materials  
+– rounded geometry
+– saturated, cheerful colors
+– soft lighting
+– subtle plastic, clay, or candy-like materials
 
 Avoid realism, photorealistic textures, weathering, dirt, or cinematic grit.
 
@@ -1478,26 +1467,20 @@ Avoid watermarks, logos, borders, or decorative text beyond landmark labels and 
 The final image should feel like a premium 3D match-3 game world map frozen in time, presented as a collectible miniature city.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-01.jpg" />
+<img width="400" alt="Match-3 City Diorama" src="images/match-3-city-diorama-02.jpg" />
+
 ### 8.2. Candy Crush City Map
 
-<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-01.jpg" />
-<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-02.jpg" />
-<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-03.jpg" />
-
-**Prompt:**
-```text
 Turning real cities into colorful Candy Crush like match-3 game world maps 🍬🍭
 
 Iconic landmarks become levels, local flavors guide the path.
 
-City Saga 🎮✨
-
-#promptshare
-
 Just change the variables.
+**Prompt:**
 
-Nano Banana Pro Prompt:
-
+```text
 You are a visual generation system that creates a colorful match-3 puzzle game world map depicting a real city as a playful, candy-like game environment, optimized for clarity, charm, and geographic storytelling.
 
 VARIABLES
@@ -1527,19 +1510,18 @@ Display only a single title at the very top of the image reading exactly: “[TI
 Avoid watermarks, logos, borders, or decorative text beyond landmark labels and the title.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-01.jpg" />
+<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-02.jpg" />
+<img width="400" alt="Candy Crush City Map" src="images/candy-crush-city-map-03.jpg" />
+
 ## 9. Food & Culture
 
 ### 9.1. Dish-As-World Scene
 
-<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-01.jpg" />
-<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-02.jpg" />
-<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-03.jpg" />
-<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-04.jpg" />
-
 **Prompt:**
-```text
-Prompt:
 
+```text
 You are an intelligent image composition model.
 
 Dish: {DISH_NAME}
@@ -1573,19 +1555,20 @@ STYLE & QUALITY RULES
 - The final image should visually explain how the dish and its cultural origin naturally come together.
 ```
 
+**Example Outputs:**
+<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-01.jpg" />
+<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-02.jpg" />
+<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-03.jpg" />
+<img width="400" alt="Dish-As-World Scene" src="images/dish-as-world-scene-04.jpg" />
+
 ## 10. Holidays & Humor
 
 ### 10.1. New Year Photo Booth Strip
 
-<img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-01.jpg" />
-<img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-02.jpg" />
-
 **Prompt:**
-```text
 New Year Photo Booth Print
 
-
-prompt: 
+```text
 Make a single-frame ultra-photorealistic photo at high resolution.
 
 Use the person from the uploaded reference photo exclusively inside the photo booth prints and preserve strict facial identity.
@@ -1607,16 +1590,16 @@ Preserve photographic realism with accurate paper texture, believable enlarged p
 Avoid all text, logos, UI elements, watermarks, overlays, phones, visible numbers, showing the person outside the prints, and any artificial effects.
 ```
 
+**Example Outputs:**
+<img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-01.jpg" />
+<img width="400" alt="New Year Photo Booth Strip" src="images/new-year-photo-booth-strip-02.jpg" />
+
 ### 10.2. Wrapped Chair Prank Gift
 
-<img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-01.jpg" />
-<img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-02.jpg" />
-
+To generate viral surprise gift images, use this prompt.
 **Prompt:**
-```text
-"Can’t wait to see her face when she opens this."
 
-To generate viral surprise gift images, use this prompt:
+```text
 Use a standard household chair as the central subject, placed prominently in the room and wrapped as a Christmas gift while clearly preserving its recognizable chair silhouette.
 
 Wrap the chair tightly with colorful Christmas-themed wrapping paper that follows the contours of the seat, backrest, and legs so the object is instantly identifiable from its shape, and secure it with a large decorative ribbon and oversized bow.
@@ -1641,6 +1624,10 @@ Preserve a deliberately absurd, humorous, and prank-like tone by presenting an o
 
 Do not add any text, captions, logos, or UI elements.
 ```
+
+**Example Outputs:**
+<img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-01.jpg" />
+<img width="400" alt="Wrapped Chair Prank Gift" src="images/wrapped-chair-prank-gift-02.jpg" />
 
 ## License
 
